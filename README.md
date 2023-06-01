@@ -4,8 +4,15 @@
 
 thomas-film-tmdb.netlify.app
 
-## Utilisation
+## description
 
-Expliquez comment utiliser votre projet, en donnant des exemples de commandes ou d'instructions.
+site pour voir les films a l'affiche
 
-Exemple :
+## technologies
+
+- api
+- js
+- DOM
+- html
+- css
+- netlify

@@ -18,7 +18,9 @@ class MovieDisplay {
           const description = movie.overview;
           const image = movie.poster_path;
           const title = movie.original_title;
-  
+            if (description!=null) {
+                
+            
           // Créer le conteneur du film
           const movieContainer = document.createElement('div');
           movieContainer.classList.add('container');
@@ -63,6 +65,7 @@ class MovieDisplay {
           // Ajouter le conteneur du film au conteneur principal
           this.container.appendChild(movieContainer);
           });
+        }
         }
       );
     }

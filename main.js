@@ -18,7 +18,7 @@ class MovieDisplay {
           const description = movie.overview;
           const image = movie.poster_path;
           const title = movie.original_title;
-            if (description!=null) {
+            if (description!= '') {
                 
             
           // Créer le conteneur du film
